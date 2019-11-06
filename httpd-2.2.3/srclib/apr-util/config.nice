@@ -1,0 +1,15 @@
+#! /bin/sh
+#
+# Created by configure
+
+"/var/www/httpd-2.2.3/srclib/apr-util/configure" \
+"--enable-so" \
+"--cache-file=/dev/null" \
+"--srcdir=/var/www/httpd-2.2.3/srclib/apr-util" \
+"--with-apr=../apr" \
+"--prefix=/usr/local/apache2" \
+"--exec-prefix=/usr/local/apache2" \
+"--libdir=/usr/local/apache2/lib" \
+"--includedir=/usr/local/apache2/include" \
+"--bindir=/usr/local/apache2/bin" \
+"$@"
