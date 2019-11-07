@@ -2,10 +2,10 @@
 #
 # Created by configure
 
-"/var/www/httpd-2.2.3/srclib/apr-util/configure" \
+"/root/distr/httpd-2.2.3/srclib/apr-util/configure" \
 "--enable-so" \
 "--cache-file=/dev/null" \
-"--srcdir=/var/www/httpd-2.2.3/srclib/apr-util" \
+"--srcdir=/root/distr/httpd-2.2.3/srclib/apr-util" \
 "--with-apr=../apr" \
 "--prefix=/usr/local/apache2" \
 "--exec-prefix=/usr/local/apache2" \

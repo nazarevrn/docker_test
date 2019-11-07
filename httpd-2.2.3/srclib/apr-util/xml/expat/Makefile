@@ -30,9 +30,9 @@
 
 SHELL = /bin/bash
 
-srcdir = /var/www/httpd-2.2.3/srclib/apr-util/xml/expat
-top_srcdir = /var/www/httpd-2.2.3/srclib/apr-util/xml/expat
-VPATH = /var/www/httpd-2.2.3/srclib/apr-util/xml/expat
+srcdir = /root/distr/httpd-2.2.3/srclib/apr-util/xml/expat
+top_srcdir = /root/distr/httpd-2.2.3/srclib/apr-util/xml/expat
+VPATH = /root/distr/httpd-2.2.3/srclib/apr-util/xml/expat
 prefix = /usr/local/apache2
 exec_prefix = /usr/local/apache2
 

@@ -1,8 +1,8 @@
-top_srcdir   = /var/www/httpd-2.2.3
-top_builddir = /var/www/httpd-2.2.3
-srcdir       = /var/www/httpd-2.2.3
-builddir     = /var/www/httpd-2.2.3
-VPATH        = /var/www/httpd-2.2.3
+top_srcdir   = /root/distr/httpd-2.2.3
+top_builddir = /root/distr/httpd-2.2.3
+srcdir       = /root/distr/httpd-2.2.3
+builddir     = /root/distr/httpd-2.2.3
+VPATH        = /root/distr/httpd-2.2.3
 
 SUBDIRS = srclib os server modules support
 CLEAN_SUBDIRS = test

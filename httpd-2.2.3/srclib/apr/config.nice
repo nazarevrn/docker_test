@@ -2,10 +2,10 @@
 #
 # Created by configure
 
-"/var/www/httpd-2.2.3/srclib/apr/configure" \
+"/root/distr/httpd-2.2.3/srclib/apr/configure" \
 "--enable-so" \
 "--cache-file=/dev/null" \
-"--srcdir=/var/www/httpd-2.2.3/srclib/apr" \
+"--srcdir=/root/distr/httpd-2.2.3/srclib/apr" \
 "--prefix=/usr/local/apache2" \
 "--exec-prefix=/usr/local/apache2" \
 "--libdir=/usr/local/apache2/lib" \

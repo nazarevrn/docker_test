@@ -1,8 +1,8 @@
-top_srcdir   = /var/www/httpd-2.2.3
-top_builddir = /var/www/httpd-2.2.3
-srcdir       = /var/www/httpd-2.2.3/server
-builddir     = /var/www/httpd-2.2.3/server
-VPATH        = /var/www/httpd-2.2.3/server
+top_srcdir   = /root/distr/httpd-2.2.3
+top_builddir = /root/distr/httpd-2.2.3
+srcdir       = /root/distr/httpd-2.2.3/server
+builddir     = /root/distr/httpd-2.2.3/server
+VPATH        = /root/distr/httpd-2.2.3/server
 
 CLEAN_TARGETS = gen_test_char test_char.h \
 	ApacheCoreOS2.def httpd.exp export_files \

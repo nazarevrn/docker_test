@@ -1,8 +1,8 @@
 
-srcdir=/var/www/httpd-2.2.3/srclib/apr
-VPATH=/var/www/httpd-2.2.3/srclib/apr
-top_srcdir=/var/www/httpd-2.2.3/srclib/apr
-top_blddir=/var/www/httpd-2.2.3/srclib/apr
+srcdir=/root/distr/httpd-2.2.3/srclib/apr
+VPATH=/root/distr/httpd-2.2.3/srclib/apr
+top_srcdir=/root/distr/httpd-2.2.3/srclib/apr
+top_blddir=/root/distr/httpd-2.2.3/srclib/apr
 
 #
 # APR (Apache Portable Runtime) library Makefile.
@@ -39,8 +39,8 @@ INSTALL_DATA = ${INSTALL} -m 644
 TARGETS = $(TARGET_LIB) export_vars.c apr.exp
 
 # bring in rules.mk for standard functionality
-include /var/www/httpd-2.2.3/srclib/apr/build/apr_rules.mk
-include /var/www/httpd-2.2.3/srclib/apr/build-outputs.mk
+include /root/distr/httpd-2.2.3/srclib/apr/build/apr_rules.mk
+include /root/distr/httpd-2.2.3/srclib/apr/build-outputs.mk
 
 CLEAN_TARGETS = apr-config.out apr.exp exports.c export_vars.c .make.dirs \
 	build/apr_rules.out

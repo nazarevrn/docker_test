@@ -14,7 +14,7 @@ library_names=''
 old_library='libpcre.a'
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/var/www/httpd-2.2.3/srclib/apr-util/xml/expat/lib'
+dependency_libs=' -L/root/distr/httpd-2.2.3/srclib/apr-util/xml/expat/lib'
 
 # Version information for libpcre.
 current=

@@ -7,12 +7,12 @@ CPP = gcc -E
 APRUTIL_MAJOR_VERSION=1
 APRUTIL_DOTTED_VERSION=1.2.7
 
-srcdir = /var/www/httpd-2.2.3/srclib/apr-util
-VPATH = /var/www/httpd-2.2.3/srclib/apr-util
+srcdir = /root/distr/httpd-2.2.3/srclib/apr-util
+VPATH = /root/distr/httpd-2.2.3/srclib/apr-util
 
-INCLUDES = -I/var/www/httpd-2.2.3/srclib/apr-util/include -I/var/www/httpd-2.2.3/srclib/apr-util/include/private  -I/var/www/httpd-2.2.3/srclib/apr/include  -I/var/www/httpd-2.2.3/srclib/apr-util/xml/expat/lib
-APRUTIL_LDFLAGS = -L/var/www/httpd-2.2.3/srclib/apr-util/xml/expat/lib
-APRUTIL_LIBS = /var/www/httpd-2.2.3/srclib/apr-util/xml/expat/lib/libexpat.la /var/www/httpd-2.2.3/srclib/apr/libapr-1.la -lrt -lcrypt -lpthread -ldl
+INCLUDES = -I/root/distr/httpd-2.2.3/srclib/apr-util/include -I/root/distr/httpd-2.2.3/srclib/apr-util/include/private  -I/root/distr/httpd-2.2.3/srclib/apr/include  -I/root/distr/httpd-2.2.3/srclib/apr-util/xml/expat/lib
+APRUTIL_LDFLAGS = -L/root/distr/httpd-2.2.3/srclib/apr-util/xml/expat/lib
+APRUTIL_LIBS = /root/distr/httpd-2.2.3/srclib/apr-util/xml/expat/lib/libexpat.la /root/distr/httpd-2.2.3/srclib/apr/libapr-1.la -lrt -lcrypt -lpthread -ldl
 
 TARGET_LIB = libaprutil-${APRUTIL_MAJOR_VERSION}.la
 INSTALL_SUBDIRS =  xml/expat
@@ -25,8 +25,8 @@ INSTALL_DATA = ${INSTALL} -m 644
 TARGETS = $(TARGET_LIB) aprutil.exp
 
 # bring in rules.mk for standard functionality
-include /var/www/httpd-2.2.3/srclib/apr-util/build/rules.mk
-include /var/www/httpd-2.2.3/srclib/apr-util/build-outputs.mk
+include /root/distr/httpd-2.2.3/srclib/apr-util/build/rules.mk
+include /root/distr/httpd-2.2.3/srclib/apr-util/build-outputs.mk
 
 CLEAN_SUBDIRS = test 
 
@@ -46,8 +46,8 @@ exec_prefix=/usr/local/apache2
 bindir=${prefix}/bin
 libdir=${prefix}/lib
 includedir=/usr/local/apache2/include
-top_srcdir=/var/www/httpd-2.2.3/srclib/apr-util
-top_blddir=/var/www/httpd-2.2.3/srclib/apr-util
+top_srcdir=/root/distr/httpd-2.2.3/srclib/apr-util
+top_blddir=/root/distr/httpd-2.2.3/srclib/apr-util
 
 # Create apu-config script suitable for the install tree
 apu-config.out: $(APU_CONFIG)

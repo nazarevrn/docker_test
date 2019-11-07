@@ -1,5 +1,5 @@
-srcdir = /var/www/httpd-2.2.3/srclib/apr/test
-VPATH = /var/www/httpd-2.2.3/srclib/apr/test
+srcdir = /root/distr/httpd-2.2.3/srclib/apr/test
+VPATH = /root/distr/httpd-2.2.3/srclib/apr/test
 
 # PROGRAMS includes all test programs built on this platform.
 # STDTEST_PORTABLE
@@ -24,7 +24,7 @@ PROGRAMS = $(STDTEST_PORTABLE) $(STDTEST_NONPORTABLE) $(OTHER_PROGRAMS)
 TARGETS = $(PROGRAMS)
 
 # bring in rules.mk for standard functionality
-include /var/www/httpd-2.2.3/srclib/apr/build/apr_rules.mk
+include /root/distr/httpd-2.2.3/srclib/apr/build/apr_rules.mk
 
 LOCAL_LIBS=../libapr-${APR_MAJOR_VERSION}.la
 

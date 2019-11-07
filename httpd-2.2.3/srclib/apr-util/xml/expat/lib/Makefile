@@ -21,13 +21,13 @@
 
 SHELL = /bin/bash
 
-srcdir = /var/www/httpd-2.2.3/srclib/apr-util/xml/expat/lib
-top_srcdir = /var/www/httpd-2.2.3/srclib/apr-util/xml/expat
-VPATH = /var/www/httpd-2.2.3/srclib/apr-util/xml/expat/lib
+srcdir = /root/distr/httpd-2.2.3/srclib/apr-util/xml/expat/lib
+top_srcdir = /root/distr/httpd-2.2.3/srclib/apr-util/xml/expat
+VPATH = /root/distr/httpd-2.2.3/srclib/apr-util/xml/expat/lib
 prefix = /usr/local/apache2
 exec_prefix = /usr/local/apache2
 
-blddir = /var/www/httpd-2.2.3/srclib/apr-util/xml/expat/lib
+blddir = /root/distr/httpd-2.2.3/srclib/apr-util/xml/expat/lib
 bindir = /usr/local/apache2/bin
 sbindir = ${exec_prefix}/sbin
 libexecdir = ${exec_prefix}/libexec

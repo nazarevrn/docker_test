@@ -1,8 +1,8 @@
-top_srcdir   = /var/www/httpd-2.2.3
-top_builddir = /var/www/httpd-2.2.3
-srcdir       = /var/www/httpd-2.2.3/modules
-builddir     = /var/www/httpd-2.2.3/modules
-VPATH        = /var/www/httpd-2.2.3/modules
+top_srcdir   = /root/distr/httpd-2.2.3
+top_builddir = /root/distr/httpd-2.2.3
+srcdir       = /root/distr/httpd-2.2.3/modules
+builddir     = /root/distr/httpd-2.2.3/modules
+VPATH        = /root/distr/httpd-2.2.3/modules
 
 SUBDIRS = $(MODULE_DIRS)
 CLEAN_SUBDIRS = $(MODULE_CLEANDIRS)

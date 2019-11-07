@@ -1,8 +1,8 @@
-top_srcdir   = /var/www/httpd-2.2.3
-top_builddir = /var/www/httpd-2.2.3
-srcdir       = /var/www/httpd-2.2.3/srclib/pcre
-builddir     = /var/www/httpd-2.2.3/srclib/pcre
-VPATH        = /var/www/httpd-2.2.3/srclib/pcre
+top_srcdir   = /root/distr/httpd-2.2.3
+top_builddir = /root/distr/httpd-2.2.3
+srcdir       = /root/distr/httpd-2.2.3/srclib/pcre
+builddir     = /root/distr/httpd-2.2.3/srclib/pcre
+VPATH        = /root/distr/httpd-2.2.3/srclib/pcre
 LTLIBRARY_NAME = libpcre.la
 LTLIBRARY_SOURCES = maketables.c get.c study.c pcre.c
 

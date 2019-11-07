@@ -27,14 +27,14 @@ bindir="${prefix}/bin"
 libdir="${prefix}/lib"
 includedir="/usr/local/apache2/include"
 
-LIBS="/var/www/httpd-2.2.3/srclib/apr-util/xml/expat/lib/libexpat.la"
-INCLUDES="-I/var/www/httpd-2.2.3/srclib/apr-util/xml/expat/lib"
-LDFLAGS="-L/var/www/httpd-2.2.3/srclib/apr-util/xml/expat/lib"
+LIBS="/root/distr/httpd-2.2.3/srclib/apr-util/xml/expat/lib/libexpat.la"
+INCLUDES="-I/root/distr/httpd-2.2.3/srclib/apr-util/xml/expat/lib"
+LDFLAGS="-L/root/distr/httpd-2.2.3/srclib/apr-util/xml/expat/lib"
 
 APRUTIL_LIBNAME="aprutil-${APRUTIL_MAJOR_VERSION}"
 
-APU_SOURCE_DIR="/var/www/httpd-2.2.3/srclib/apr-util"
-APU_BUILD_DIR="/var/www/httpd-2.2.3/srclib/apr-util"
+APU_SOURCE_DIR="/root/distr/httpd-2.2.3/srclib/apr-util"
+APU_BUILD_DIR="/root/distr/httpd-2.2.3/srclib/apr-util"
 APR_XML_EXPAT_OLD=""
 APU_DB_VERSION="0"
 

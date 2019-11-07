@@ -1,6 +1,6 @@
-VPATH = /var/www/httpd-2.2.3/srclib/apr-util/test
+VPATH = /root/distr/httpd-2.2.3/srclib/apr-util/test
 
-INCLUDES = -I/var/www/httpd-2.2.3/srclib/apr-util/include -I/var/www/httpd-2.2.3/srclib/apr-util/include/private  -I/var/www/httpd-2.2.3/srclib/apr/include  -I/var/www/httpd-2.2.3/srclib/apr-util/xml/expat/lib
+INCLUDES = -I/root/distr/httpd-2.2.3/srclib/apr-util/include -I/root/distr/httpd-2.2.3/srclib/apr-util/include/private  -I/root/distr/httpd-2.2.3/srclib/apr/include  -I/root/distr/httpd-2.2.3/srclib/apr-util/xml/expat/lib
 
 PROGRAMS = testall testdbm testdate testxml testrmm \
 	   testreslist testqueue testxlate dbd
@@ -13,9 +13,9 @@ TARGET_LIB_PATH = ../libaprutil-${APRUTIL_MAJOR_VERSION}.la
 CLEAN_TARGETS = manyfile.bin testfile.txt data/sqlite*.db
 
 # bring in rules.mk for standard functionality
-include /var/www/httpd-2.2.3/srclib/apr-util/build/rules.mk
-PROGRAM_DEPENDENCIES = /var/www/httpd-2.2.3/srclib/apr-util/xml/expat/lib/libexpat.la /var/www/httpd-2.2.3/srclib/apr/libapr-1.la -lrt -lcrypt -lpthread -ldl
-APRUTIL_LDFLAGS = -no-install -L/var/www/httpd-2.2.3/srclib/apr-util/xml/expat/lib
+include /root/distr/httpd-2.2.3/srclib/apr-util/build/rules.mk
+PROGRAM_DEPENDENCIES = /root/distr/httpd-2.2.3/srclib/apr-util/xml/expat/lib/libexpat.la /root/distr/httpd-2.2.3/srclib/apr/libapr-1.la -lrt -lcrypt -lpthread -ldl
+APRUTIL_LDFLAGS = -no-install -L/root/distr/httpd-2.2.3/srclib/apr-util/xml/expat/lib
 
 all: $(PROGRAMS)
 

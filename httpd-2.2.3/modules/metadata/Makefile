@@ -1,8 +1,8 @@
-top_srcdir   = /var/www/httpd-2.2.3
-top_builddir = /var/www/httpd-2.2.3
-srcdir       = /var/www/httpd-2.2.3/modules/metadata
-builddir     = /var/www/httpd-2.2.3/modules/metadata
-VPATH        = /var/www/httpd-2.2.3/modules/metadata
+top_srcdir   = /root/distr/httpd-2.2.3
+top_builddir = /root/distr/httpd-2.2.3
+srcdir       = /root/distr/httpd-2.2.3/modules/metadata
+builddir     = /root/distr/httpd-2.2.3/modules/metadata
+VPATH        = /root/distr/httpd-2.2.3/modules/metadata
 
 include $(top_srcdir)/build/special.mk
 

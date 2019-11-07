@@ -1,8 +1,8 @@
-top_srcdir   = /var/www/httpd-2.2.3
-top_builddir = /var/www/httpd-2.2.3
-srcdir       = /var/www/httpd-2.2.3/support
-builddir     = /var/www/httpd-2.2.3/support
-VPATH        = /var/www/httpd-2.2.3/support
+top_srcdir   = /root/distr/httpd-2.2.3
+top_builddir = /root/distr/httpd-2.2.3
+srcdir       = /root/distr/httpd-2.2.3/support
+builddir     = /root/distr/httpd-2.2.3/support
+VPATH        = /root/distr/httpd-2.2.3/support
 DISTCLEAN_TARGETS = apxs apachectl dbmmanage log_server_status \
 	logresolve.pl phf_abuse_log.cgi split-logfile envvars-std
 

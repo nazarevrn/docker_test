@@ -8,6 +8,6 @@
 #   $ . path/to/apr-util/export_vars.sh
 #
 
-APRUTIL_EXPORT_INCLUDES="-I/var/www/httpd-2.2.3/srclib/apr-util/xml/expat/lib"
-APRUTIL_EXPORT_LIBS="/var/www/httpd-2.2.3/srclib/apr-util/xml/expat/lib/libexpat.la"
-APRUTIL_LDFLAGS="-L/var/www/httpd-2.2.3/srclib/apr-util/xml/expat/lib"
+APRUTIL_EXPORT_INCLUDES="-I/root/distr/httpd-2.2.3/srclib/apr-util/xml/expat/lib"
+APRUTIL_EXPORT_LIBS="/root/distr/httpd-2.2.3/srclib/apr-util/xml/expat/lib/libexpat.la"
+APRUTIL_LDFLAGS="-L/root/distr/httpd-2.2.3/srclib/apr-util/xml/expat/lib"

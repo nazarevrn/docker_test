@@ -1,8 +1,8 @@
-top_srcdir   = /var/www/httpd-2.2.3
-top_builddir = /var/www/httpd-2.2.3
-srcdir       = /var/www/httpd-2.2.3/modules/ssl
-builddir     = /var/www/httpd-2.2.3/modules/ssl
-VPATH        = /var/www/httpd-2.2.3/modules/ssl
+top_srcdir   = /root/distr/httpd-2.2.3
+top_builddir = /root/distr/httpd-2.2.3
+srcdir       = /root/distr/httpd-2.2.3/modules/ssl
+builddir     = /root/distr/httpd-2.2.3/modules/ssl
+VPATH        = /root/distr/httpd-2.2.3/modules/ssl
 # Licensed to the Apache Software Foundation (ASF) under one or more
 # contributor license agreements.  See the NOTICE file distributed with
 # this work for additional information regarding copyright ownership.

@@ -685,16 +685,16 @@ s,@OS_SPECIFIC_VARS@,,;t t
 s,@PRE_SHARED_CMDS@,echo "",;t t
 s,@POST_SHARED_CMDS@,echo "",;t t
 s,@shared_build@,,;t t
-s,@AP_LIBS@,/var/www/httpd-2.2.3/srclib/pcre/libpcre.la  /var/www/httpd-2.2.3/srclib/apr-util/libaprutil-1.la /var/www/httpd-2.2.3/srclib/apr-util/xml/expat/lib/libexpat.la  /var/www/httpd-2.2.3/srclib/apr/libapr-1.la -lrt -lcrypt  -lpthread -ldl,;t t
+s,@AP_LIBS@,/root/distr/httpd-2.2.3/srclib/pcre/libpcre.la  /root/distr/httpd-2.2.3/srclib/apr-util/libaprutil-1.la /root/distr/httpd-2.2.3/srclib/apr-util/xml/expat/lib/libexpat.la  /root/distr/httpd-2.2.3/srclib/apr/libapr-1.la -lrt -lcrypt  -lpthread -ldl,;t t
 s,@AP_BUILD_SRCLIB_DIRS@,apr  apr-util pcre,;t t
 s,@AP_CLEAN_SRCLIB_DIRS@,apr-util  apr pcre,;t t
 s,@EXTRA_CPPFLAGS@, -D_REENTRANT -D_GNU_SOURCE,;t t
 s,@EXTRA_CFLAGS@, -g -O2 -pthread,;t t
 s,@EXTRA_CXXFLAGS@,,;t t
-s,@EXTRA_LDFLAGS@,  -L/var/www/httpd-2.2.3/srclib/apr-util/xml/expat/lib,;t t
+s,@EXTRA_LDFLAGS@,  -L/root/distr/httpd-2.2.3/srclib/apr-util/xml/expat/lib,;t t
 s,@EXTRA_LIBS@,-lm ,;t t
-s,@EXTRA_INCLUDES@,-I$(top_builddir)/srclib/pcre -I. -I$(top_srcdir)/os/$(OS_DIR) -I$(top_srcdir)/server/mpm/$(MPM_SUBDIR_NAME) -I$(top_srcdir)/modules/http -I$(top_srcdir)/modules/filters -I$(top_srcdir)/modules/proxy -I$(top_srcdir)/include -I$(top_srcdir)/modules/generators -I$(top_srcdir)/modules/mappers -I$(top_srcdir)/modules/database -I/var/www/httpd-2.2.3/srclib/apr/include -I/var/www/httpd-2.2.3/srclib/apr-util/include -I/var/www/httpd-2.2.3/srclib/apr-util/xml/expat/lib -I$(top_srcdir)/modules/proxy/../generators -I$(top_srcdir)/modules/ssl -I$(top_srcdir)/modules/dav/main,;t t
-s,@abs_srcdir@,/var/www/httpd-2.2.3,;t t
+s,@EXTRA_INCLUDES@,-I$(top_builddir)/srclib/pcre -I. -I$(top_srcdir)/os/$(OS_DIR) -I$(top_srcdir)/server/mpm/$(MPM_SUBDIR_NAME) -I$(top_srcdir)/modules/http -I$(top_srcdir)/modules/filters -I$(top_srcdir)/modules/proxy -I$(top_srcdir)/include -I$(top_srcdir)/modules/generators -I$(top_srcdir)/modules/mappers -I$(top_srcdir)/modules/database -I/root/distr/httpd-2.2.3/srclib/apr/include -I/root/distr/httpd-2.2.3/srclib/apr-util/include -I/root/distr/httpd-2.2.3/srclib/apr-util/xml/expat/lib -I$(top_srcdir)/modules/proxy/../generators -I$(top_srcdir)/modules/ssl -I$(top_srcdir)/modules/dav/main,;t t
+s,@abs_srcdir@,/root/distr/httpd-2.2.3,;t t
 s,@cgidir@,${datadir}/cgi-bin,;t t
 s,@logfiledir@,${localstatedir}/logs,;t t
 s,@htdocsdir@,${datadir}/htdocs,;t t
@@ -718,7 +718,7 @@ s,@NOTEST_CFLAGS@,,;t t
 s,@NOTEST_CXXFLAGS@,,;t t
 s,@NOTEST_LDFLAGS@,,;t t
 s,@NOTEST_LIBS@,,;t t
-s,@LIBTOOL@,/var/www/httpd-2.2.3/srclib/apr/libtool $(LTFLAGS),;t t
+s,@LIBTOOL@,/root/distr/httpd-2.2.3/srclib/apr/libtool $(LTFLAGS),;t t
 s,@MODULE_DIRS@, aaa filters loggers metadata http generators mappers,;t t
 s,@MODULE_CLEANDIRS@, arch/win32 cache database debug echo experimental ldap proxy ssl test dav/main dav/fs dav/lock,;t t
 s,@PORT@,80,;t t
@@ -732,11 +732,11 @@ s,@MK_IMPLIB@,,;t t
 s,@INSTALL_PROG_FLAGS@,,;t t
 s,@DSO_MODULES@,,;t t
 s,@APR_BINDIR@,/usr/local/apache2/bin,;t t
-s,@APR_INCLUDEDIR@,/var/www/httpd-2.2.3/srclib/apr/include,;t t
+s,@APR_INCLUDEDIR@,/root/distr/httpd-2.2.3/srclib/apr/include,;t t
 s,@APR_VERSION@,1.2.7,;t t
 s,@APR_CONFIG@,/usr/local/apache2/bin/apr-1-config,;t t
 s,@APU_BINDIR@,/usr/local/apache2/bin,;t t
-s,@APU_INCLUDEDIR@,/var/www/httpd-2.2.3/srclib/apr-util/include,;t t
+s,@APU_INCLUDEDIR@,/root/distr/httpd-2.2.3/srclib/apr-util/include,;t t
 s,@APU_VERSION@,1.2.7,;t t
 s,@APU_CONFIG@,/usr/local/apache2/bin/apu-1-config,;t t
 s,@perlbin@,/usr/bin/perl,;t t

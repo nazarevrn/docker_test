@@ -1,5 +1,5 @@
-srcdir = /var/www/httpd-2.2.3/srclib/apr/test/internal
-VPATH = /var/www/httpd-2.2.3/srclib/apr/test/internal
+srcdir = /root/distr/httpd-2.2.3/srclib/apr/test/internal
+VPATH = /root/distr/httpd-2.2.3/srclib/apr/test/internal
 
 NONPORTABLE = \
 	testregex
@@ -9,7 +9,7 @@ PROGRAMS = \
 TARGETS = $(PROGRAMS) $(NONPORTABLE)
 
 # bring in rules.mk for standard functionality
-include /var/www/httpd-2.2.3/srclib/apr/build/apr_rules.mk
+include /root/distr/httpd-2.2.3/srclib/apr/build/apr_rules.mk
 
 LOCAL_LIBS=../../libapr-${APR_MAJOR_VERSION}.la
 

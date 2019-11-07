@@ -24,8 +24,8 @@
 #
 # Configuration variables
 #
-apr_builddir=/var/www/httpd-2.2.3/srclib/apr
-apr_builders=/var/www/httpd-2.2.3/srclib/apr/build
+apr_builddir=/root/distr/httpd-2.2.3/srclib/apr
+apr_builders=/root/distr/httpd-2.2.3/srclib/apr/build
 
 # Some layouts require knowing what version we are at.
 APR_MAJOR_VERSION=1

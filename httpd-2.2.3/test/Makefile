@@ -1,8 +1,8 @@
-top_srcdir   = /var/www/httpd-2.2.3
-top_builddir = /var/www/httpd-2.2.3
-srcdir       = /var/www/httpd-2.2.3/test
-builddir     = /var/www/httpd-2.2.3/test
-VPATH        = /var/www/httpd-2.2.3/test
+top_srcdir   = /root/distr/httpd-2.2.3
+top_builddir = /root/distr/httpd-2.2.3
+srcdir       = /root/distr/httpd-2.2.3/test
+builddir     = /root/distr/httpd-2.2.3/test
+VPATH        = /root/distr/httpd-2.2.3/test
 
 # no targets: we don't want to build anything by default. if you want the
 # test programs, then "make test"
